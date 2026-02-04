@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  max-width: 250px;
+  width: 100%;
+}
+
+.form-group {
+  position: relative;
+  padding-top: 40px;
+  border-radius: 5px;
+}
+
+.legend {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  font-weight: bold;
+}
+
+.fieldset-2 {
+  border: none;
+  padding: 0;
+}
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+textarea {
+  min-height: 30px;
+  max-height: 150px;
+  resize: vertical;
+  width: 175px;
+}
