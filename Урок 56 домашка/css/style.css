@@ -1,0 +1,70 @@
+html {
+  font-family: sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1380px;
+    margin: 0 auto;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 38px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  margin-right: auto;
+}
+
+.phone {
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.header {
+  padding: 20px 0;
+  border-bottom: none;
+  padding-top: 5px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: none;
+  position: relative;
+  padding: 0 100px 10px 100px;
+}
+
+.header-container::after {
+  content: "";
+  position: absolute;
+  left: 90px;
+  right: 90px;
+  bottom: 0;
+  height: 1px;
+  background: #eee;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.phone a {
+  text-decoration: none;
+}
